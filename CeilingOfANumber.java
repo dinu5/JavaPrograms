@@ -3,7 +3,7 @@ package com.dinu;
 public class CeilingOfANumber {
 	public static void main(String[] args) {
 		int[] arr = {2, 4, 6, 7, 10, 30, 56, 102};
-		int target = 102;
+		int target = 7;
 		int ans = search(arr, target);
 		System.out.println(ans);
 	}
